@@ -22,14 +22,14 @@ export default function Example() {
 						10 years in a row.
 					</p>
 					<p className='mt-6 text-2xl leading-10 text-gray-300'>
-						Now, my focus is on programming. With a certificate in Full Stack
+						Now, my focus is on programming. I have a certificate in Full Stack
 						Web Development from the Georgia Institute of Technology and a
 						portfolio of applications I have made that you can check out on the
-						next page, I want to dive deeper into this unique world where I can
+						next page. I want to dive deeper into this unique world where I can
 						bring creative ideas to life on the screen in front of you.
 					</p>
 				</div>
-				<div className='ml-10'>
+				<div className='ml-10 mt-24'>
 					<img src={profile_picture} alt='Profile picture' />
 				</div>
 			</div>

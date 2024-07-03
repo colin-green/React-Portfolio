@@ -3,6 +3,8 @@ import { Outlet } from 'react-router-dom';
 import { Disclosure } from '@headlessui/react';
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline';
 import { NavLink } from 'react-router-dom';
+import { SocialIcon } from 'react-social-icons';
+import Tooltip from '@mui/material/Tooltip';
 
 const navigation = [
 	{ name: 'About Me', linkTo: '/', current: true },
@@ -89,6 +91,43 @@ export default function NavBar() {
 			<div className='bg-gradient-to-b from-green-900 to-gray-950 min-h-screen'>
 				<Outlet />
 			</div>
+			<footer className='fixed bottom-0 left-0 z-20 w-full p-4 bg-white border-t border-green-200 shadow md:flex md:items-center md:justify-between md:p-6 dark:bg-green-800 dark:border-green-600'>
+				<span className='text-2xl text-gray-500 sm:text-center dark:text-gray-400'>
+					Colin Green
+				</span>
+				<ul className='flex flex-wrap items-center mt-3 text-xl text-gray-500 dark:text-gray-400 sm:mt-0'>
+					<li>
+						<a
+							href='#'
+							target='_blank'
+							className='hover:underline me-4 md:me-6'
+						>
+							Résumé
+						</a>
+					</li>
+					<li className='mr-1'>
+						<Tooltip title='LinkedIn'>
+							<SocialIcon
+								url='https://www.linkedin.com/in/colinmgreen/'
+								target='_blank'
+							/>
+						</Tooltip>
+					</li>
+					<li className='mr-1'>
+						<Tooltip title='GitHub'>
+							<SocialIcon
+								url='https://github.com/colin-green'
+								target='_blank'
+							/>
+						</Tooltip>
+					</li>
+					<li>
+						<Tooltip title='Email Me'>
+							<SocialIcon url='mailto:colinmgreen7@gmail.com' />
+						</Tooltip>
+					</li>
+				</ul>
+			</footer>
 		</Fragment>
 	);
 }
