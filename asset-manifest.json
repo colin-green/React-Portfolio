@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/React-Portfolio/static/css/main.2e81ffc2.css",
+    "main.js": "/React-Portfolio/static/js/main.1dc4a9ed.js",
+    "static/js/453.9ec22443.chunk.js": "/React-Portfolio/static/js/453.9ec22443.chunk.js",
+    "static/media/wow-logo.jpg": "/React-Portfolio/static/media/wow-logo.587e9771e01a7f6daa6a.jpg",
+    "static/media/liri-cropped.jpg": "/React-Portfolio/static/media/liri-cropped.ed517b215bdbd0707e7b.jpg",
+    "static/media/moxie-commission.jpg": "/React-Portfolio/static/media/moxie-commission.1e6e7f1077f45c3ec4bc.jpg",
+    "static/media/markdown.png": "/React-Portfolio/static/media/markdown.ab878789a1bc09fc2a2f.png",
+    "static/media/quotes.png": "/React-Portfolio/static/media/quotes.4f7e8c89c358e10848a7.png",
+    "static/media/friend-finder-homepage.jpg": "/React-Portfolio/static/media/friend-finder-homepage.e2164a1ddfd590b152e1.jpg",
+    "index.html": "/React-Portfolio/index.html",
+    "main.2e81ffc2.css.map": "/React-Portfolio/static/css/main.2e81ffc2.css.map",
+    "main.1dc4a9ed.js.map": "/React-Portfolio/static/js/main.1dc4a9ed.js.map",
+    "453.9ec22443.chunk.js.map": "/React-Portfolio/static/js/453.9ec22443.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2e81ffc2.css",
+    "static/js/main.1dc4a9ed.js"
+  ]
+}
