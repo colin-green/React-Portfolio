@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+import { createHashRouter, RouterProvider } from 'react-router-dom';
 import './index.css';
 import NavBar from './routes/NavBar';
 import AboutMe from './routes/AboutMe';
@@ -8,7 +8,7 @@ import Portfolio from './routes/Portfolio';
 import ErrorPage from './routes/error-page';
 import reportWebVitals from './reportWebVitals';
 
-const router = createBrowserRouter([
+const router = createHashRouter([
 	{
 		path: '/',
 		element: <NavBar />,
