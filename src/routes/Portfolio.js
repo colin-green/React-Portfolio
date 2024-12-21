@@ -10,6 +10,14 @@ import wowLogo from '../pictures/wow-logo.jpg';
 export default function Portfolio() {
 	const applications = [
 		{
+			title: 'WoW Weekly Checklist',
+			imageSrc: wowLogo,
+			description:
+				'You can use this WoW Weekly Checklist to keep track of the tasks needed to fill out your weekly great vault on multiple different characters.',
+			appLink: 'https://colin-green.github.io/WoW-Weekly-Checklist/',
+			githubLink: 'https://github.com/colin-green/WoW-Weekly-Checklist',
+		},
+		{
 			title: 'Markdown Previewer',
 			imageSrc: markdown,
 			description:
